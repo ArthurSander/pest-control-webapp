@@ -1,0 +1,39 @@
+{
+  "name": "pest-control-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/cookies": "^0.7.7",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/passport": "^1.0.7",
+    "@types/passport-discord": "^0.1.5",
+    "assert": "^2.0.0",
+    "cookies": "^0.8.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "next": "12.1.0",
+    "passport": "^0.5.2",
+    "passport-discord": "^0.1.4",
+    "process": "^0.11.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "@types/react": "^17.0.39",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
